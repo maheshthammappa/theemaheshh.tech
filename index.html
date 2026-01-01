@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Mahesh | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Mahesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-  <header>
-    <h1>Mahesh</h1>
-    <p>Aspiring Developer</p>
-  </header>
+<header class="navbar">
+    <h1 class="logo">Mahesh</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-  <section>
+<section class="hero">
+    <h2>Hi, I'm <span>Mahesh</span></h2>
+    <p>Full Stack Developer | Python | React | Django</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</section>
+
+<section id="about" class="section">
     <h2>About Me</h2>
     <p>
-      MCA student passionate about building real-world web applications.
+        I am a motivated MCA student passionate about building clean, scalable web applications.
+        I enjoy solving problems and learning modern technologies.
     </p>
-  </section>
+</section>
 
-  <section>
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Python</span>
+        <span>Django REST</span>
+        <span>PostgreSQL</span>
+    </div>
+</section>
+
+<section id="projects" class="section">
     <h2>Projects</h2>
-    <ul>
-      <li>Authentication System</li>
-      <li>Student Details System</li>
-    </ul>
-  </section>
+    <div class="projects">
+        <div class="card">
+            <h3>Student Details System</h3>
+            <p>Full stack app using React, Django REST, PostgreSQL.</p>
+        </div>
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive portfolio using HTML and CSS.</p>
+        </div>
+    </div>
+</section>
 
-  <section>
+<section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: okaymanthankyou@gmail.com</p>
-  </section>
+    <p>Email: mahesh@example.com</p>
+    <p>GitHub: github.com/mahesh</p>
+</section>
 
-  <script src="script.js"></script>
+<footer>
+    <p>© 2026 Mahesh. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
